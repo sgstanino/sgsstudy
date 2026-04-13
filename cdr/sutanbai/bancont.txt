@@ -1,0 +1,169 @@
+//2009/11/26変更分・・hidouki=trueの時にスライドバーを半透明かつドラッグ不可
+onClipEvent (load) {
+
+	//サンプル表示を消す・・・以下数行、どれもサンプル表示が消えてくれない。
+	//_level2.sample._alpha=0;
+	//_parent.arufa=0;
+	//_level2.unloadMovie();
+	//_root._level2.sample._visible=false;
+	//
+	_parent._parent.非同期注意文="このページのムービーは非同期で動かしているので、スライドバーでの時間コントロールはできません"
+	動作=1
+	スペース押された=false
+	initx = _x;
+	left = _x;
+	幅 = _parent.suraidoana._width;
+	right = _x+幅;
+	top = _y;
+	bottom = _y;
+	function myplay(iti) {
+		ritu = (iti-initx)/幅;
+		if (ritu>0.99) {
+			ritu = (_level1._totalframes-20)/_level1._totalframes;
+		}
+		_level1.gotoAndPlay(math.round(_level1._totalframes*ritu+1));
+		_parent.suutihyouzi.suuti = int(ritu*100);
+	}
+}
+
+
+on (rollOver) {
+	if (_level1.hidouki == true) {
+		_parent._parent.hidouki_tyuui._visible = true;
+	}
+}
+on (rollOut) {
+	_parent._parent.hidouki_tyuui._visible = false;
+}
+on (dragOut) {
+	_parent._parent.hidouki_tyuui._visible = false;
+
+}
+
+
+on (press) {
+	if(_level1.hidouki==true){
+	}else{
+		startDrag("", false, left, top, right, bottom);
+		つかんだ = 1;
+		つかんだ時 = getTimer();
+		//trace(つかんだ時);
+
+	}
+}
+on (releaseOutside) {
+	stopDrag();
+	つかんだ = 0;
+	_root.playbotan._visible = false;
+	_root.pausebotan._visible = true;
+	a = myplay(_x);
+}
+on (release) {
+	stopDrag();
+	つかんだ = 0;
+	_root.playbotan._visible = false;
+	_root.pausebotan._visible = true;
+	a = myplay(_x);
+}
+onClipEvent (enterFrame) {
+	//非同期モードのとき、ツマミを薄くする
+	if(_level1._currentframe<10){
+		動作=1
+		if(_level1.hidouki==true){
+			//this.enabled=false
+			this._alpha=50
+		}else{
+			//this.enabled=true
+			this._alpha=100
+
+		}
+	}
+	//
+
+	//ストップキー（スペース）
+	if (Key.isDown(32) ) {
+		if(スペース押された==false){
+			スペース押された=true
+			if(動作==1) {
+				_root.playbotan._visible = true;
+				_root.pausebotan._visible = false;
+				_level1.stop();
+				動作=0
+			} else {
+				_root.playbotan._visible = false;
+				_root.pausebotan._visible = true;
+				_level1.play();
+				動作=1
+			}
+		}
+	}else{
+		スペース押された=false
+
+	}
+	if (つかんだ!=1) {
+		//if (動作==1) {
+			if (_level1._currentframe<3) {
+				_root.playbotan._visible = false;
+				_root.pausebotan._visible = true;
+				_level1.play()
+			}
+			ritu2 = _level1._currentframe/_level1._totalframes;
+		
+			_x = initx+幅*ritu2;
+			_parent.suutihyouzi.suuti = int(ritu2*100);
+		//}
+	} else {
+		//つかんでいるときでも
+		if (getTimer()-つかんだ時>300) {
+			つかんだ時 = getTimer();
+			a = myplay(_x);
+		}
+	}
+	//リンク機能
+	mykey = 0;
+	if (Key.isDown(74)) {
+		mykey = 1;
+	} else if (Key.isDown(87)) {
+		//wiki
+		mykey = 2;
+	} else if (Key.isDown(89)) {
+		//yahoo
+		mykey = 3;
+	}
+	if (mykey != 0) {
+		if (選択中フラグ == 0) {
+			選択中フラグ = 1;
+			_root.playbotan._visible = true;
+			_root.pausebotan._visible = false;
+			_level1.stop();
+			最初の文字位置 = Selection.getBeginIndex();
+			最後の文字位置 = Selection.getEndIndex();
+			文字列 = eval(Selection.getFocus()+".text");
+			フィールド = Selection.getFocus();
+			選択文字列 = 文字列.substring(最初の文字位置, 最後の文字位置);
+			//trace(選択文字列);
+			if (mykey == 1) {
+				myurl = "http://dictionary.goo.ne.jp/srch/all/";
+				最初 = "";
+				最後 = "/m0u/";
+				変数 = 最初.concat(選択文字列, 最後);
+				アドレス = myurl.concat(変数);
+				//hyouzi = 変数;
+			} else if (mykey == 2) {
+				myurl = "http://ja.wikipedia.org/wiki/";
+				アドレス = myurl.concat(選択文字列);
+			} else if (mykey == 3) {
+				myurl = "http://search.yahoo.co.jp/search";
+				最初 = "?p=";
+				最後 = "&fr=ysvw&ei=Shift_JIS&search.x=20&search.y=12";
+				変数 = 最初.concat(選択文字列, 最後);
+				アドレス = myurl.concat(変数);
+			}
+			getURL(アドレス, "blank");
+		}
+	} else {
+		選択中フラグ = 0;
+		mykey = 0;
+		//選択文字列=null
+	}
+}

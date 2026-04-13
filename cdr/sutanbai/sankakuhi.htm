@@ -1,0 +1,51 @@
+<HTML><HEAD>
+<META http-equiv=Content-Type content="text/html; charset=shift_jis">
+
+<SCRIPT language=JavaScript>
+<!-- 
+var i=0
+
+function kaiten(){
+	//半径
+	r = 100
+	
+	//値を計算（画面上ではYは下向きが正になっている）
+	//////////////////////////////////
+	y= r * Math.sin(i*Math.PI/180);
+	x= r * Math.cos(i*Math.PI/180);
+	//////////////////////////////////
+
+	//点のx座標に値をセットする
+	document.all.ball.style.posTop =y
+	//点のy座標に値をセットする
+	document.all.ball.style.posLeft =x
+
+	//角度の表示
+	document.F1.Kakudo.value =i
+
+	//画面更新間隔
+	window.setTimeout("kaiten()", 100);
+
+	//角度を増加させる
+	i=i+1;
+	
+}
+-->
+</SCRIPT>
+
+</HEAD>
+
+<BODY onload=kaiten()>
+<FORM name=F1 action=#>角度は<INPUT size=10 name=Kakudo>
+</FORM>
+<SPAN id=hako style="LEFT: 200px; POSITION: absolute; TOP: 200px">
+□
+<SPAN id=ball style="POSITION: absolute">
+●
+</SPAN>
+</SPAN>
+<DIV style="LEFT: 400px; POSITION: absolute; TOP: 0px">
+<A HREF="sankakuhi.EXE">ソースファイルダウンロード</A>
+</DIV>
+</BODY>
+</HTML>
