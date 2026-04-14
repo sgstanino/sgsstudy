@@ -1,4 +1,4 @@
-<!--
+﻿<!--
 	var timerID = 0;
 	// 自動再生
 	var autoPlay = true;
