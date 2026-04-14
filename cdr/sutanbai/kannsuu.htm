@@ -10,29 +10,29 @@
 </style>
 
 <SCRIPT LANGUAGE="JavaScript">
-//s”
+//è¡Œæ•°
 gyou=30;
 siki="";
 gurafumasu=100
 
-//ŒvZ
+//è¨ˆç®—
 function keisan(){
 	yy = new Array(gyou);
-	//®‚Ìæ‚è‚İ
+	//å¼ã®å–ã‚Šè¾¼ã¿
 	siki=document.F1.siki.value
-	//ŒvZ
+	//è¨ˆç®—
 	for(i=1;i<=gyou;i++){
-        //’læ‚è‚İ
+        //å€¤å–ã‚Šè¾¼ã¿
 		x=parseFloat(eval("document.F1.x"+i+".value"))
-		//®‚ğŒvZ‚·‚é
+		//å¼ã‚’è¨ˆç®—ã™ã‚‹
 		
 		eval(siki)
 		yy[i]=y
-		//•\‚É‹L“ü‚·‚é
+		//è¡¨ã«è¨˜å…¥ã™ã‚‹
 		
 		eval("document.F1.y"+i+".value=y")
 	}
-	//ƒOƒ‰ƒt‚ğì‚é
+	//ã‚°ãƒ©ãƒ•ã‚’ä½œã‚‹
 	saisyouti=0
 	saidaiti=0
 
@@ -56,37 +56,37 @@ function keisan(){
 		fukosuu=0
 	}
 	
-	//ƒOƒ‰ƒt‚ÌŒÂ”‚ğ‘‚­
+	//ã‚°ãƒ©ãƒ•ã®å€‹æ•°ã‚’æ›¸ã
 	for(i=1;i<=gyou;i++){
-		var bou=" ";@
+		var bou="â–¡";ã€€
 		if(yy[i]>0){
 			if(fukosuu>0){
 				for(k=1;k<=fukosuu;k++){
-					bou=bou+" ";
+					bou=bou+"â–¡";
 				}
 			}
 			kosuu=Math.round(yy[i]/hitotubun)
 			
 			for(j=1;j<=kosuu;j++){
-				bou=bou+"œ"
+				bou=bou+"â—"
 			}
 		
 		}else if(yy[i]<=0){
 			kosuu=Math.round(-yy[i]/hitotubun)
 			for(k=1;k<=(fukosuu-kosuu);k++){
-				bou=bou+" ";
+				bou=bou+"â–¡";
 			}
 			for(k=1;k<=kosuu;k++){
-				bou=bou+"¡";
+				bou=bou+"â– ";
 			}
 		}
-		//alert(i+"”Ô‚Ì–_‚ÍË"+bou)
+		//alert(i+"ç•ªã®æ£’ã¯â‡’"+bou)
 		eval("document.F1.z"+i+".value=bou")
 		
 	}
 }	
 
-//ƒNƒŠƒA
+//ã‚¯ãƒªã‚¢
 function kesu(){
 	for(i=1;i<=gyou;i++){
 		eval("document.F1.y"+i+".value=''")
@@ -103,13 +103,13 @@ function kesu(){
 <DIV ALIGN="center">
 <form name="F1" >
 <input type="text" name="siki" size=50 VALUE="y=x*x-20*x+50"  ><BR>
-<input type="button" value="ŒvZ" onclick=keisan()>
-@<input type="button" value="Á‚·" onclick=kesu()>
+<input type="button" value="è¨ˆç®—" onclick=keisan()>
+ã€€<input type="button" value="æ¶ˆã™" onclick=kesu()>
 <BR><BR>
 
 
 <TABLE BORDER="1">
-<TR><TD  ALIGN="center">x</TD><TD ALIGN="center">y</TD></TD><TD ALIGN="center">ƒOƒ‰ƒtŠTŠÏ</TD></TR>
+<TR><TD  ALIGN="center">x</TD><TD ALIGN="center">y</TD></TD><TD ALIGN="center">ã‚°ãƒ©ãƒ•æ¦‚è¦³</TD></TR>
 
 <SCRIPT LANGUAGE="JavaScript">
 <!-- 
