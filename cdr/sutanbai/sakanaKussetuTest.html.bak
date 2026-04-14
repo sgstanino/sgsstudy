@@ -1,0 +1,23 @@
+<HTML>
+<HEAD>
+<meta http-equiv=Content-Type content="text/html;  charset=UTF-8">
+
+<!--日本語対応ruffleへのリンクを持つjsへのリンク  -->
+<script src="../sutanbai/ruffleimport_jp.js"></script>
+
+<!--<script src="../sutanbai/ruffle/ruffle.js"></script>-->
+
+<TITLE>魚�E浮き上がり　シミュレーション</TITLE>
+</HEAD>
+<BODY bgcolor="#FFFFFF">
+魚�E浮き上がり　シミュレーション　　　　　<A HREF="hozyo.html">補助教材一覧</A>
+<!-- URL's used in the movie-->
+<!-- text used in the movie-->
+<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0"
+ WIDTH="90%" HEIGHT="90%" id="sakana04test" ALIGN="">
+ <PARAM NAME=movie VALUE="sakana04test.swf"> <PARAM NAME=quality VALUE=high> <PARAM NAME=bgcolor VALUE=#FFFFFF> <EMBED src="sakana04test.swf" quality=high bgcolor=#FFFFFF  WIDTH="90%" HEIGHT="90%" NAME="sakana04" ALIGN=""
+ TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></EMBED>
+</OBJECT>
+</BODY>
+</HTML>

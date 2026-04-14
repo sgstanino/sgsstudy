@@ -1,0 +1,118 @@
+<html>
+<head>
+<style type="text/css">
+<!--  
+TH, TD {padding: 5px 5px 5px 5px; font-size: 10pt;  line-height:160%;}
+BODY {font-size: 10pt; line-height:160% }
+span { margin: 0px 0px 0px 50px; }
+
+body {
+    background-color:#F0FFE4;
+    background-image: url(back_migi.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+// -->
+</style>
+</head>
+<BODY>
+<DIV ALIGN="center"><FONT SIZE=4><B>中学理科「動物・植物の分類と特長」の補助教材</B></FONT>
+
+<TABLE BORDER="1" WIDTH="600">
+<TR><TD>
+<ul>
+
+<li><A HREF="../sutanbai/nenoSeityou.html" TARGET="_self"><B>中学理科「根の成長（細胞分裂）」</A><BR>
+<IMG BORDER="1" SRC="../sutanbai/simiphoto/nenoSeityou.jpg" ><BR>
+<BR>
+
+<li><A HREF="../sutanbai/kenbikyouSetumei.html" TARGET="_self"><B>顕微鏡の原理説明</A><BR>
+<IMG BORDER="1" SRC="../sutanbai/simiphoto/kenbikyou.jpg"><BR>
+<BR>
+
+<li><A HREF="../sutanbai/tanbo2010/index.html" TARGET="_self"><B>理科、田んぼの定点観察</A><BR>（10か月定点観察してみました。）<BR>
+<IMG BORDER="1" SRC="../sutanbai/simiphoto/tanbo2010.jpg" ><BR>
+<BR>
+
+
+
+<li><A HREF="../sutanbai/gensuu_bunretu.html" TARGET="_self"><B>減数分裂のモデル</A> <A HREF="#*2">※2</A><BR>
+減数分裂（オス）の過程をモデルで観察。<BR>
+<IMG BORDER="1" SRC="../sutanbai/simiphoto/gensuu_bunretu.jpg"><BR>
+<BR>
+
+<li><A HREF="../sutanbai/taisaibou_bunretu.html" TARGET="_self"><B>体細胞分裂のモデル</A> <A HREF="#*2">※2</A><BR>
+中学生用としてはやや細かく、高校生用としては簡単なものとなっています。<BR>
+<IMG BORDER="1" SRC="../sutanbai/simiphoto/taisaibou_bunretu.jpg"><BR>
+<BR>
+
+<li><A HREF="../sutanbai/ookisakurabe.htm" TARGET="_self"><B>大きさ比べ。</A><BR>
+（ただの表です）<BR>
+<IMG BORDER="1" SRC="../sutanbai/simiphoto/tanni.jpg"><BR>
+
+<BR>
+
+
+<li><A HREF="../sutanbai/hana.html" TARGET="_self"><B>中学理科「被子植物の受精」</A> <A HREF="#*2">※2</A> <A HREF="#*3">※3</A><BR>
+<IMG BORDER="1" SRC="../sutanbai/simiphoto/hana.jpg" BORDER="1"><BR>
+<BR>
+
+
+
+<li><A HREF="../sutanbai/syoku_ren_a.html" TARGET="_self"><B>中学生用、理科「光合成・呼吸と食物連鎖の観察」</A> <A HREF="#*2">※2</A> <A HREF="#*3">※3</A><BR>
+光合成で酸素が発生するところに、ちょっとだけこだわりを入れた。(*^_^*)<BR>
+<IMG BORDER="1" SRC="../sutanbai/simiphoto/070118-010.jpg"><BR>
+<BR>
+
+
+<li><A HREF="../sutanbai/hassei_1.html" TARGET="_self"><B>（高生用）生物「カエルの発生（原腸胚から～）」</B></A> <A HREF="#*2">※2</A> <A HREF="#*3">※3</A><BR>
+フラッシュでは連続的な変形を描画するのが難しく、出来ばえはちょっと雑ですが、動画が必要な部分だと思っていたので作ってみました。<BR>
+ネット上の既存の作品ををおおいに参考にさせていただきましたが、不明な部分は推測で作っていますので、間違いがあるかもしれません。（詳しい方からのアドバイスをお待ちしています）<BR>
+<IMG BORDER="1" SRC="../sutanbai/simiphoto/070118-009.jpg"><BR>
+<BR>
+
+<li><A HREF="../sutanbai/kuruma.html" TARGET="_self"><B>（中高生用）理科生物「車の走る仕組み」</B></A><BR>
+栄養を燃やしてエネルギーを得るという意味では車も人間も同じ。そのためにちょっと役に立つかな♪ということで作りました。(^_^;)<BR>
+<IMG BORDER="1" SRC="../sutanbai/simiphoto/070118-011.jpg"><BR>
+<BR>
+
+
+<li><A HREF="../sutanbai/zintaizittai.html" TARGET="_self"><B>（中高生用）理科生物「簡易、人体解剖図」</B></A> <A HREF="#*2">※2</A> <A HREF="#*3">※3</A><BR>
+いろいろはずせます。ちょっと気持ち悪いかも。(^_^;)<BR>
+<IMG BORDER="1" SRC="../sutanbai/simiphoto/070118-013.jpg"><BR>
+<BR>
+
+
+<li><A HREF="../sutanbai/kansetu01.html" TARGET="_self"><B>（中高生用）理科生物「関節、腕の曲げ伸ばし」の観察</B></A> <A HREF="#*2">※2</A> <A HREF="#*3">※3</A><BR>
+筋肉と骨の関係を体感。<BR>
+<IMG BORDER="1" SRC="../sutanbai/simiphoto/070118-012.jpg"><BR>
+<BR>
+
+
+<li><A HREF="../sutanbai/zintai_01.html" TARGET="_self"><B>（中学生用）「簡易、呼吸・消化の物質の流れ」</B></A> <A HREF="#*2">※2</A> <A HREF="#*3">※3</A>・・・前から「いつかは作ってみたい」と思っていたものです。<BR>
+臓器をクリックすると、動きがあります。　まだまだ完成度が低いので、改良の余地ありです。(*^_^*)
+<BR>
+<IMG BORDER="1" SRC="../sutanbai/simiphoto/070118-016.jpg"><BR>
+<BR>
+
+
+
+
+
+
+
+</ul>
+
+</TD></TR>
+<TR><TD>
+<A NAME="*1">※1印の付いている作品群が、<A HREF="http://www.gakujoken.or.jp/" TARGET="_self">財団法人学習ソフトウェア情報研究センター</A>の2006年度学習ソフトウエアコンテストの「学情研賞」を頂いたものです。<BR>
+<A NAME="*2">※2印の付いている作品群が、2007年わかやまソフコン「優秀賞・審査員特別賞」を頂いたものです。<BR>
+<A NAME="*3">※3印の付いている作品群が、2007年度学習ソフトウエアコンテスト出品（「奨励賞」）に付属させていたものです。<BR>
+
+</TD></TR></TABLE>
+
+</DIV>
+<br>
+</body>
+</html>
+

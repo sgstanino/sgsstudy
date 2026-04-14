@@ -1,0 +1,27 @@
+<HTML>
+<HEAD>
+<meta http-equiv=Content-Type content="text/html;  charset=UTF-8">
+<TITLE>basebanreki</TITLE>
+<!--<script src="../sutanbai/ruffle/ruffle.js"></script>-->
+
+<!--日本語対応ruffleへのリンクを持つjsへのリンク  ☁E��史専用-->
+<script src="../sutanbai/ruffleimport_jp.js"></script>
+
+</HEAD>
+<BODY bgcolor="#cccccc">
+<!-- URL's used in the movie-->
+<A HREF=mokuzi.swf></A> <!-- text used in the movie-->
+<!--vol--><OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0"
+ WIDTH="100%" HEIGHT="100%" id="basebanreki" ALIGN="left">
+ <PARAM NAME=movie VALUE="basebanreki.swf"> <PARAM NAME=quality VALUE=high> <PARAM NAME=bgcolor VALUE=#FFFFFF> <EMBED src="basebanreki.swf" quality=high bgcolor=#FFFFFF  WIDTH="100%" HEIGHT="100%" NAME="basebanreki" ALIGN="left"
+ TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></EMBED>
+</OBJECT>
+
+<!-- 
+<DIV ALIGN="right">
+<iframe src="../sutanbai/adsense.htm" width="120" height="490" scrolling="NO" frameborder="0" marginwidth="0" marginheight="0" border="0"></iframe>
+</DIV> 
+-->
+</BODY>
+</HTML>

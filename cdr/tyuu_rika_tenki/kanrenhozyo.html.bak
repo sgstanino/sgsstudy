@@ -1,0 +1,40 @@
+<html>
+<head>
+<style type="text/css">
+<!--  
+TH, TD {padding: 5px 5px 5px 5px; font-size: 10pt;  line-height:160%;}
+BODY {font-size: 10pt; line-height:160% }
+span { margin: 0px 0px 0px 50px; }
+
+body {
+    background-color:#F0FFE4;
+    background-image: url(back_migi.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+// -->
+</style>
+</head>
+<BODY>
+<DIV ALIGN="center"><FONT SIZE=4><B>中学理科「人体」の補助教材</B></FONT>
+
+<TABLE BORDER="1" WIDTH="600">
+<TR><TD>
+<ul>
+
+<li><A HREF="../sutanbai/zensen.html" TARGET="_self"><B>中学理科、天気「前線の移動」</A> 　<A HREF="https://www.youtube.com/watch?v=YE7-xz5jLZo" TARGET="_blank">デモ</A><BR>
+<IMG BORDER="1" SRC="../sutanbai/simiphoto/zensen.jpg" ><BR>
+<BR>
+
+
+
+</ul>
+
+
+</TD></TR></TABLE>
+
+</DIV>
+<br>
+</body>
+</html>
+

@@ -1,0 +1,64 @@
+<html>
+<head>
+<style type="text/css">
+<!--  
+TH, TD {padding: 5px 5px 5px 5px; font-size: 10pt;  line-height:160%;}
+BODY {font-size: 10pt; line-height:160% }
+span { margin: 0px 0px 0px 50px; }
+
+body {
+    background-color:#F0FFE4;
+    background-image: url(back_migi.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+// -->
+</style>
+</head>
+<BODY>
+<DIV ALIGN="center"><FONT SIZE=4><B>小学校「円と面積」の補助教材</B></FONT>
+
+<TABLE BORDER="1" WIDTH="600">
+<TR><TD>
+<ul>
+
+
+
+
+<li><A HREF="../sutanbai/enkorogasi.html" TARGET="_self"><B>小学算数「円ころがし観察」</A> <A HREF="#*2">※2</A> <A HREF="#*3">※3</A><BR>
+円を転がして、円周がその３倍強であることを観察する。<BR>
+<IMG BORDER="1" SRC="../sutanbai/simiphoto/070118-001.jpg" BORDER="1"><BR>
+<BR>
+
+
+<li><A HREF="../sutanbai/en_menseki_a.html" TARGET="_self"><B>小学校算数。「円の面積</A> <A HREF="#*2">※2</A> <A HREF="#*3">※3</A><BR>
+作りの甘さからか、ちょっとズレますが、求積の概要説明に使ってやってください。<BR>
+<IMG BORDER="1" SRC="../sutanbai/simiphoto/070118-005.jpg"><BR>
+<BR>
+
+
+<li><A HREF="../sutanbai/menseki01.html" TARGET="_self"><B>小学校算数。「面積の観察（タイル並べ）」</A> <A HREF="#*2">※2</A> <A HREF="#*3">※3</A><BR>
+下の「体積」のを改造したものです。一辺１００モードでは、途中で重くなります(^_^;)<BR>
+<IMG BORDER="1" SRC="../sutanbai/simiphoto/070118-006.jpg"><BR>
+<BR>
+
+
+
+
+
+
+</ul>
+
+</TD></TR>
+<TR><TD>
+<A NAME="*1">※1印の付いている作品群が、<A HREF="http://www.gakujoken.or.jp/" TARGET="_self">財団法人学習ソフトウェア情報研究センター</A>の2006年度学習ソフトウエアコンテストの「学情研賞」を頂いたものです。<BR>
+<A NAME="*2">※2印の付いている作品群が、2007年わかやまソフコン「優秀賞・審査員特別賞」を頂いたものです。<BR>
+<A NAME="*3">※3印の付いている作品群が、2007年度学習ソフトウエアコンテスト出品（「奨励賞」）に付属させていたものです。<BR>
+
+</TD></TR></TABLE>
+
+</DIV>
+<br>
+</body>
+</html>
+

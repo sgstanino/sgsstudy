@@ -1,0 +1,88 @@
+<html>
+<head>
+<style type="text/css">
+<!--  
+TH, TD {padding: 5px 5px 5px 5px; font-size: 10pt;  line-height:160%;}
+BODY {font-size: 10pt; line-height:160% }
+span { margin: 0px 0px 0px 50px; }
+
+body {
+    background-color:#F0FFE4;
+    background-image: url(back_migi.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+// -->
+</style>
+</head>
+<BODY>
+<DIV ALIGN="center"><FONT SIZE=4><B>中学理科「音と光」の補助教材</B></FONT>
+
+<TABLE BORDER="1" WIDTH="600">
+<TR><TD>
+<ul>
+
+<li><A HREF="../sutanbai/himonami.html" TARGET="_self"><B>高校物理「波のシミュレーション」</A><BR>
+<IMG BORDER="1" SRC="../sutanbai/simiphoto/himonami.jpg" ><BR>
+<BR>
+
+
+
+
+<li><A HREF="../sutanbai/sugatami.html" TARGET="_self"><B>鏡に写る姿</A> <A HREF="#*2">※2</A><BR>
+自分の身長の半分の長さの鏡があれば、全身を写すことができることを確認する。<BR>
+<IMG BORDER="1" SRC="../sutanbai/simiphoto/sugatami.jpg"><BR>
+<BR>
+
+
+<li><A HREF="../sutanbai/sakanaKussetu.html" TARGET="_self"><B>（中学生用）屈折「魚の浮き上がり」</B></A> <A HREF="#*2">※2</A> <A HREF="#*3">※3</A>・・・ビジュアル物理の中川先生のをしっかりマネさせていただきました。　魚が動かせるものが欲しかったので。(*^_^*)<BR>
+<IMG BORDER="1" SRC="../sutanbai/simiphoto/070118-015.jpg"><BR>
+<BR>
+
+
+<li><A HREF="#*1"><A HREF="#*1">※1</A> </A> <A HREF="../sutanbai/lenz_01.html" TARGET="_self"><B>レンズの実験観察</B></A>・・・凸レンズ・凹レンズの実験。　あちこち動かせます。<BR>
+「レンズの上下移動」や「物体先端からレンズを通る光の帯」の実装については、それぞれ<A HREF="http://www.ne.jp/asahi/tokyo/nkgw/index.html" TARGET="_self">中川先生</A>・<A HREF="http://www.asahi-net.or.jp/~zn6t-szk/index.html" TARGET="_self">鈴木先生</A>にはこころよくご承諾をいただき感謝しております。<BR>
+<IMG BORDER="1" SRC="../sutanbai/simiphoto/070118-017.jpg"><BR>
+<BR>
+
+<li><A HREF="../sutanbai/kenbikyouSetumei.html" TARGET="_self"><B>顕微鏡の原理説明</A><BR>
+<IMG BORDER="1" SRC="../sutanbai/simiphoto/kenbikyou.jpg"><BR>
+<BR>
+
+<li><A HREF="#*1">※1</A> <A HREF="../sutanbai/kussetu01.html" TARGET="_self"><B>（フラッシュ）物理、屈折のシミュレーション</B></A><BR>
+<A HREF="http://www2.biglobe.ne.jp/~norimari/science/JavaEd/ref.html" TARGET="_self">加藤先生の</A>と<A HREF="http://www.ne.jp/asahi/tokyo/nkgw/gakusyu/hadou/Huygens'principle/Huygens.html" TARGET="_self">中川先生の</A>をミックスしたようなものをめざしました。<BR>
+<IMG BORDER="1" SRC="../sutanbai/simiphoto/070118-018.jpg"><BR>
+<BR>
+
+<li><A HREF="#*1">※1</A> <A HREF="../sutanbai/wavemachine.html" TARGET="_self"><B>（フラッシュ）物理、擬似ウエイブマシン（煙発生マシン）</B></A><BR>
+波源で正弦波を起こしていることを強調したもので、波源で発生した煙が風に乗って進んでいく仕組みです。　波源を移動させることができるので、ドップラー効果の説明などに使えます。<BR>
+<IMG BORDER="1" SRC="../sutanbai/simiphoto/070118-022.jpg"><BR>
+<BR>
+
+
+<li><A HREF="#*1">※1</A> <a href = "nami.html" TARGET="_self"><B>（flash）正弦波の観察（波の公式で）</B></a><BR>
+正弦波の公式の各変数をリアルタイムに変更して波を観察する。<BR>
+<IMG BORDER="1" SRC="../sutanbai/simiphoto/070118-024.jpg"><BR>
+<BR>
+
+
+
+
+
+
+
+</ul>
+
+</TD></TR>
+<TR><TD>
+<A NAME="*1">※1印の付いている作品群が、<A HREF="http://www.gakujoken.or.jp/" TARGET="_self">財団法人学習ソフトウェア情報研究センター</A>の2006年度学習ソフトウエアコンテストの「学情研賞」を頂いたものです。<BR>
+<A NAME="*2">※2印の付いている作品群が、2007年わかやまソフコン「優秀賞・審査員特別賞」を頂いたものです。<BR>
+<A NAME="*3">※3印の付いている作品群が、2007年度学習ソフトウエアコンテスト出品（「奨励賞」）に付属させていたものです。<BR>
+
+</TD></TR></TABLE>
+
+</DIV>
+<br>
+</body>
+</html>
+

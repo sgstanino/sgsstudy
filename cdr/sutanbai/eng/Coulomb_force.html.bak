@@ -1,0 +1,18 @@
+<HTML>
+<HEAD>
+<meta http-equiv=Content-Type content="text/html;  charset=UTF-8">
+<script src="../ruffle/ruffle.js"></script>
+<TITLE>Coulomb force</TITLE>
+</HEAD>
+<BODY bgcolor="#FFFFFF">
+<!--九九�E熟練　　　　　　　　<A HREF="hozyo.html">補助教材一覧</A>-->
+<!-- URL's used in the movie-->
+<!-- text used in the movie-->
+<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0"
+ WIDTH="90%" HEIGHT="90%" id="kuronRyoku_eng" ALIGN="">
+ <PARAM NAME=movie VALUE="kuronRyoku_eng.swf"> <PARAM NAME=quality VALUE=high> <PARAM NAME=bgcolor VALUE=#FFFFFF> <EMBED src="kuronRyoku_eng.swf" quality=high bgcolor=#FFFFFF  WIDTH="90%" HEIGHT="90%" NAME="kuronRyoku_eng" ALIGN=""
+ TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></EMBED>
+</OBJECT>
+</BODY>
+</HTML>

@@ -1,0 +1,43 @@
+<html>
+<head>
+<style type="text/css">
+<!--  
+TH, TD {padding: 5px 5px 5px 5px; font-size: 10pt;  line-height:160%;}
+BODY {font-size: 10pt; line-height:160% }
+span { margin: 0px 0px 0px 50px; }
+
+body {
+    background-color:#F0FFE4;
+    background-image: url(back_migi.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+// -->
+</style>
+</head>
+<BODY>
+<DIV ALIGN="center"><FONT SIZE=4><B>中学歴史、関連補助教材</B></FONT>
+
+<TABLE BORDER="1" WIDTH="600">
+<TR><TD>
+<ul>
+
+
+<li><A HREF="../sutanbai/zidaiOboe.html" TARGET="_self"><B>中学社会、歴史「時代覚え」・・やっちゃいました(^_^;)</A><BR>
+<IMG BORDER="1" SRC="../sutanbai/simiphoto/zidaiOboe.jpg" ><BR>
+<BR>
+
+
+
+</ul>
+
+</TD></TR>
+<TR><TD>
+
+</TD></TR></TABLE>
+
+</DIV>
+<br>
+</body>
+</html>
+

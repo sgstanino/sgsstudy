@@ -1,0 +1,24 @@
+<HTML>
+<HEAD>
+<meta http-equiv=Content-Type content="text/html;  charset=UTF-8">
+
+<!--日本語対応ruffleへのリンクを持つjsへのリンク  -->
+<script src="../sutanbai/ruffleimport_jp.js"></script>
+
+<!--<script src="../sutanbai/ruffle/ruffle.js"></script>-->
+
+<TITLE>高校数学、図形と方程式「軌跡」シミュレーション</TITLE>
+</HEAD>
+<BODY bgcolor="#FFFFFF">
+高校数学、図形と方程式「軌跡」シミュレーション　　　　<A HREF="hozyo.html">補助教材一覧</A>
+
+<!-- URL's used in the movie-->
+<!-- text used in the movie-->
+<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0"
+ WIDTH="90%" HEIGHT="90%" id="kiseki01" ALIGN="">
+ <PARAM NAME=movie VALUE="kiseki01.swf"> <PARAM NAME=quality VALUE=high> <PARAM NAME=bgcolor VALUE=#FFFFFF> <EMBED src="kiseki01.swf" quality=high bgcolor=#FFFFFF  WIDTH="90%" HEIGHT="90%" NAME="kiseki01" ALIGN=""
+ TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></EMBED>
+</OBJECT>
+</BODY>
+</HTML>

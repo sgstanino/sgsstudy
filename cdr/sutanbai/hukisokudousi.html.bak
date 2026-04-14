@@ -1,0 +1,23 @@
+<HTML>
+<HEAD>
+<meta http-equiv=Content-Type content="text/html;  charset=UTF-8">
+
+<!--日本語対応ruffleへのリンクを持つjsへのリンク  -->
+<script src="../sutanbai/ruffleimport_jp.js"></script>
+
+<!--<script src="../sutanbai/ruffle/ruffle.js"></script>-->
+
+<TITLE>中学英語、不規則動詞練翁E/TITLE>
+</HEAD>
+<BODY bgcolor="#CCCCCC">
+中学英語、不規則動詞練習　　　　<A HREF="hozyo.html">補助教材一覧</A>
+<!-- URL's used in the movie-->
+<!-- text used in the movie-->
+<!--<P ALIGN="LEFT"><FONT FACE="�E��E� ゴシチE��" SIZE="13" COLOR="#0000FF">中学英語／�Eろく�E�動詞�E不規則変化</FONT></P>--><OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0"
+ WIDTH="90%" HEIGHT="90%" id="hukisokudousi" ALIGN="">
+ <PARAM NAME=movie VALUE="hukisokudousi.swf"> <PARAM NAME=quality VALUE=high> <PARAM NAME=bgcolor VALUE=#CCCCCC> <EMBED src="hukisokudousi.swf" quality=high bgcolor=#CCCCCC  WIDTH="90%" HEIGHT="90%" NAME="hukisokudousi" ALIGN=""
+ TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></EMBED>
+</OBJECT>
+</BODY>
+</HTML>

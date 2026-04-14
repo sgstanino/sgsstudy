@@ -1,0 +1,48 @@
+<html lang="ja">
+<!-- 作成日時 2010/11/24 15:21:46 -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta name="GENERATOR" content="ThumbnailAlbum 1.2.1.0">
+<link rel="stylesheet" href="css/style.css" type="text/css">
+	<title>Tanbo no kansatu</title>
+</head>
+<body onLoad="AutoPlay();">
+<A HREF="../hozyo.html">Back</A><BR>
+<table align="center" class="main" summary="Thumbnail List">
+</DIV>	<tr class="header">
+		<td colspan="3">
+			<div id="FILENAME" class="header">20100104.JPG</div>
+		</td>
+	</tr>
+	<tr class="contents">
+		<td class="contents_left"></td>
+		<td>
+			<table class="photo_contents" summary="20100104.JPG">
+				<tr>
+					<td align="center"><img id="SLIDESHOW" src="photo/20100104.JPG" alt="SlideShow"></td>
+				</tr>
+				<tr>
+					<td><div id="COMMENT" class="slideshow_comment" align="center"><br></div>
+				</tr>
+			</table>
+		</td>
+		<td class="contents_right"></td>
+	</tr>
+	<tr class="footer">
+		<td colspan="3">
+			<div class="footer"><br></div>
+		</td>
+	</tr>
+</table>
+<br>
+<div id="CONTROLBUTTON" class="controlbutton" align="center">
+	<input type="button" id="START" value="再生" onclick="StartSlideShow();" onkeypress="StartSlideShow();">
+	<input type="button" id="STOP" value="停止" onclick="StopSlideShow();" onkeypress="StopSlideShow();">
+	<input type="button" id="PREV" value="前へ" onclick="PrevImgFrame();" onkeypress="PrevImgFrame();">
+	<input type="button" id="NEXT" value="次へ" onclick="NextImgFrame();" onkeypress="NextImgFrame();">
+</div>
+<script type="text/javascript" src="js/slideshow.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<html>
+<head>
+<style type="text/css">
+<!--  
+TH, TD {padding: 5px 5px 5px 5px; font-size: 10pt;  line-height:160%;}
+BODY {font-size: 10pt; line-height:160% }
+span { margin: 0px 0px 0px 50px; }
+
+body {
+    background-color:#F0FFE4;
+    background-image: url(back_migi.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+// -->
+</style>
+</head>
+<BODY>
+<DIV ALIGN="center"><FONT SIZE=4><B>高校化学、関連補助教材</B></FONT>
+
+<TABLE BORDER="1" WIDTH="600">
+<TR><TD>
+
+<li><A HREF="../sutanbai/kou_kagaku_hannou/base_kagaku.html" TARGET="_self"><B>高校化学「いろいろな化学反応の様子」少しずつ増やしていく予定です。</A><BR>
+<IMG BORDER="1" SRC="../sutanbai/simiphoto/kagakuhannou.jpg" ><BR>
+<BR>
+
+<li><A HREF="../sutanbai/syuukihyou.html" TARGET="_self"><B>高校化学「周期表」（電気陰性度も）</A><BR>
+<IMG BORDER="1" SRC="../sutanbai/simiphoto/syuukihyou.jpg" ><BR>
+<BR>
+
+
+
+</TD></TR></TABLE>
+
+</DIV>
+<br>
+</body>
+</html>

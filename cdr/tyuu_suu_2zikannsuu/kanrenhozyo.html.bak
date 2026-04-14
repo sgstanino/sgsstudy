@@ -1,0 +1,111 @@
+<html>
+<head>
+<style type="text/css">
+<!--  
+TH, TD {padding: 5px 5px 5px 5px; font-size: 10pt;  line-height:160%;}
+BODY {font-size: 10pt; line-height:160% }
+span { margin: 0px 0px 0px 50px; }
+
+body {
+    background-color:#F0FFE4;
+    background-image: url(back_migi.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+// -->
+</style>
+</head>
+<BODY>
+<DIV ALIGN="center"><FONT SIZE=4><B>中学数学「二次関数」の補助教材</B></FONT>
+
+<TABLE BORDER="1" WIDTH="600">
+<TR><TD>
+<ul>
+
+
+
+
+<li><A HREF="../sutanbai/tamaate.html" TARGET="_self"><B>玉当てゲーム</A> <A HREF="#*2">※2</A><BR>
+二人で楽しめるゲームです。放物運動のイメージに役立ちます。まったりしたゲーム。<BR>
+画面の文字のキーを叩いてください。<BR>
+<IMG BORDER="1" SRC="../sutanbai/simiphoto/tamaate.jpg"><BR>
+
+<BR>
+
+
+<li><A HREF="../sutanbai/tyuuNizikansuu.html" TARGET="_self"><B>中学数学「ｙ＝ａｘ二乗 の観察」</A> <A HREF="#*2">※2</A> <A HREF="#*3">※3</A><BR>
+<IMG BORDER="1" SRC="../sutanbai/simiphoto/tyuuNizikansuu.jpg" BORDER="1"><BR>
+<BR>
+
+<li><A HREF="../sutanbai/hireiHanpirei.html" TARGET="_self"><B>中学数学「比例・反比例のグラフ観察</A> <A HREF="#*2">※2</A> <A HREF="#*3">※3</A><BR><IMG BORDER="1" SRC="../sutanbai/simiphoto/hireiHanpirei.jpg" BORDER="1"><BR>
+<BR>
+
+
+
+<li><A HREF="../sutanbai/1zikansuu.html" TARGET="_self"><B>中学数学「１次関数の観察」</A> <A HREF="#*2">※2</A> <A HREF="#*3">※3</A><BR>
+<IMG BORDER="1" SRC="../sutanbai/simiphoto/1zikansuu.jpg" BORDER="1"><BR>
+<BR>
+
+
+<li><A HREF="../sutanbai/kouzikansuu.html" TARGET="_self"><B>高校数学「高次間数の観察」</A> <A HREF="#*2">※2</A> <A HREF="#*3">※3</A><BR>
+これは、はたしてどう役立つのかは判りませんが、見てみたいことがありますよね。<BR>
+しかし、出来上がってみて、われながら、その色使いのセンスの無さに・・とほほ。<BR>
+<IMG BORDER="1" SRC="../sutanbai/simiphoto/kouzikansuu.jpg" BORDER="1"><BR>
+<BR>
+
+
+<li><A HREF="../sutanbai/nizikansuu.html" TARGET="_self"><B>高校数学「二次関数の観察」</A> <A HREF="#*2">※2</A> <A HREF="#*3">※3</A><BR>
+二次関数の基本形と、グラフの関係をリアルタイムに観察する。<BR>
+<IMG BORDER="1" SRC="../sutanbai/simiphoto/nizikannsuu.jpg" BORDER="1"><BR>
+<BR>
+
+<li><B>プログラムをさわって勉強の理解に生かそう（byエクセルのエディター）</B><BR>
+　　　　　　　「<a href = "macro_tukaikata.htm" onclick="window.open('macro_tukaikata.htm', '_blank', 'width=500,height=400,resizable=yes,menubar=no,toolbar=no,left=10,scrollbars=no,status=no');return false;">マクロを有効に</a>」で使ってください<BR>
+
+　　　<FONT COLOR="#800000"><B>この教材の狙い</B><BR>
+　　　数学の勉強は抽象的な要素が多いので、生徒にしてみると興味を持ちにくいことも多い。<BR>
+　　　そこで、簡単なプログラミングをさせることを通じて興味を持たせることを狙います。<BR>
+　　　そばに、VBAプログラムの経験者の付き添いが必要です。(~_~;)<BR></FONT><BR>
+
+	<ul>
+	
+		<li><A HREF="../sutanbai/kyouzai/vba_de_kannsuu.xls" TARGET="_self">一次関数の理解に生かそう（中学生におすすめ）</A><BR>
+	　　　プログラムをいじって、二次関数とかも作ってみてください。<BR>
+			
+	<!--
+		<li><A HREF="../sutanbai/kyouzai/vba_sankaku_kannsuu.xls" TARGET="_self">三角関数と座標の理解に生かそう（高校生におすすめ）</A><BR>
+	  -->
+	</ul>
+<BR>
+
+
+
+<li><B>プログラムを触らないで関数の自動計算。</B>　
+	<ul>
+	
+		<li><A HREF="../sutanbai/kyouzai/0_kannsuu.xls" TARGET="_self">多次関数の自動計算（中・高生）</A><BR>
+	　　　　　　
+	</ul>
+
+
+
+
+
+
+
+
+</ul>
+
+</TD></TR>
+<TR><TD>
+<A NAME="*1">※1印の付いている作品群が、<A HREF="http://www.gakujoken.or.jp/" TARGET="_self">財団法人学習ソフトウェア情報研究センター</A>の2006年度学習ソフトウエアコンテストの「学情研賞」を頂いたものです。<BR>
+<A NAME="*2">※2印の付いている作品群が、2007年わかやまソフコン「優秀賞・審査員特別賞」を頂いたものです。<BR>
+<A NAME="*3">※3印の付いている作品群が、2007年度学習ソフトウエアコンテスト出品（「奨励賞」）に付属させていたものです。<BR>
+
+</TD></TR></TABLE>
+
+</DIV>
+<br>
+</body>
+</html>
+

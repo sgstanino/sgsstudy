@@ -1,0 +1,83 @@
+<html>
+<head>
+<style type="text/css">
+<!--  
+TH, TD {padding: 5px 5px 5px 5px; font-size: 10pt;  line-height:160%;}
+BODY {font-size: 10pt; line-height:160% }
+span { margin: 0px 0px 0px 50px; }
+
+body {
+    background-color:#F0FFE4;
+    background-image: url(back_migi.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+// -->
+</style>
+</head>
+<BODY>
+<DIV ALIGN="center"><FONT SIZE=4><B>小学校初年算数の補助教材</B></FONT>
+
+<TABLE BORDER="0" WIDTH="600">
+<TR><TD>
+<ul>
+
+
+<li><A HREF="../sutanbai/iroha.htm" TARGET="_self"><B>「いろは　ち進法」文面版</A> <BR>
+<BR>
+<BR>
+
+<li><A HREF="../sutanbai/kazukazoe.html" TARGET="_self"><B>「ザッ、十進法」（十進法の理解のため）</A> <BR>
+「十進法の理解」とともに、五のかたまりを利用することも数への慣れにとても重要。<BR>
+<IMG BORDER="1" SRC="../sutanbai/simiphoto/kazukazoe.jpg" BORDER="1"><BR>
+<BR>
+
+<li><A HREF="../sutanbai/zyussinKisuuhou.html" TARGET="_self"><B>数かぞえ（十進記数法）・・「十進法」は別にあります。</A><BR>
+<IMG BORDER="1" SRC="../sutanbai/simiphoto/zyussinKisuuhou.jpg" ><BR>
+<BR>
+
+<li><A HREF="../sutanbai/kaimono.html" TARGET="_self"><B>小学校低学年、算数「買い物ゲーム」(十進記数法の定着）</A><BR>
+<IMG BORDER="1" SRC="../sutanbai/simiphoto/kaimono.jpg" ><BR>
+<BR>
+
+<li><A HREF="../sutanbai/imatra/imatra.html" TARGET="_self"><B>小学生算数「数のイメージトレーニング」</A><FONT COLOR="#FF0000"></B><B><I>new</I></B></FONT><BR>
+数直線・角度・個数のトレーニング。（和歌山県知事賞受賞）<BR>
+<IMG BORDER="1" SRC="../sutanbai/simiphoto/imatra.jpg" ><BR>
+<BR>
+
+<li><A HREF="../sutanbai/kuku.html" TARGET="_self"><B>ザッ、九九</A>（九九の導入段階に向いています）　　<BR>
+<IMG BORDER="1" SRC="../sutanbai/simiphoto/kuku.jpg" ><BR>
+<BR>
+
+<li><A HREF="../sutanbai/kukuzyukuren.html" TARGET="_self"><B>九九の熟練</A>（九九の逆です）　<BR>
+<IMG BORDER="1" SRC="../sutanbai/simiphoto/kukuzyukuren.jpg" ><BR>
+<BR>
+
+<li><A HREF="../sutanbai/tokeiBenkyou.html" TARGET="_self"><B>小学校、時計の練習</A><BR>
+<IMG BORDER="1" SRC="../sutanbai/simiphoto/tokeiBenkyou.jpg" ><BR>
+<BR>
+
+
+<li><A HREF="../sutanbai/densyaKakou.html" TARGET="_self"><B>電車を描こう</A><BR>
+<IMG BORDER="1" SRC="../sutanbai/simiphoto/densyaKakou.jpg" ><BR>
+<BR>
+
+<li><A HREF="../sutanbai/zitensya.html" TARGET="_self"><B>仕組みを楽しもう「自転車のしくみ」</A><BR>
+自転車の車輪が回る仕組みを見てみよう。<BR>
+<IMG BORDER="1" SRC="../sutanbai/simiphoto/zitensya.jpg" ><BR>
+<BR>
+
+
+
+</ul>
+
+</TD></TR>
+<TR><TD>
+
+</TD></TR></TABLE>
+
+</DIV>
+<br>
+</body>
+</html>
+

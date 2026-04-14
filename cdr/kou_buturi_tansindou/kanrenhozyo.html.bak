@@ -1,0 +1,78 @@
+<html>
+<head>
+<style type="text/css">
+<!--  
+TH, TD {padding: 5px 5px 5px 5px; font-size: 10pt;  line-height:160%;}
+BODY {font-size: 10pt; line-height:160% }
+span { margin: 0px 0px 0px 50px; }
+
+body {
+    background-color:#F0FFE4;
+    background-image: url(back_migi.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+// -->
+</style>
+</head>
+<BODY>
+<DIV ALIGN="center"><FONT SIZE=4><B>高校物理「等速円運動と単振動」の補助教材</B></FONT>
+
+<TABLE BORDER="1" WIDTH="600">
+<TR><TD>
+<ul>
+
+<li><A HREF="../sutanbai/tansindou.html" TARGET="_self"><B>高校物理。「単振動」</A><BR>
+<IMG BORDER="1" SRC="../sutanbai/simiphoto/tansindou.jpg" ><BR>
+<BR>
+
+<li><A HREF="../sutanbai/entyokumenEnundou.html" TARGET="_self"><B>高校物理。「鉛直面内の円運動」</A><BR>
+<IMG BORDER="1" SRC="../sutanbai/simiphoto/entyokumenEnundou.jpg" ><BR>
+<BR>
+
+
+<li><A HREF="../sutanbai/banyuuinryoku.html" TARGET="_self"><B>高校物理。「万有引力シミュレーション」</A><BR>
+<IMG BORDER="1" SRC="../sutanbai/simiphoto/banyuuinryoku.jpg" ><BR>
+<BR>
+
+<li><A HREF="../sutanbai/ensyuunoTen.html" TARGET="_self"><B>高校数学、三角関数関係「円周上の点の座標」シミュレーション。</A><FONT COLOR="#FF0000"><B><I>new</I></B></FONT><BR>
+三角関数は、角度と円周上の点の座標を関連付けるためにとても有用です。<BR>
+<IMG BORDER="1" SRC="../sutanbai/simiphoto/ensyuunoTen.jpg" ><BR>
+<BR>
+
+
+<li><A HREF="../sutanbai/zikokutoSin.html" TARGET="_self"><B>高校数学「サイングラフ書き機」</A><FONT COLOR="#FF0000"></B><B><I>new</I></B></FONT><BR>
+（数Ⅱでの三角関数グラフの理解において、周期の理解が難しいので、「物理、波」での時刻と変位のイメージを利用する。）<BR>
+<IMG BORDER="1" SRC="../sutanbai/simiphoto/zikokutoSin.jpg" ><BR>
+<BR>
+
+
+<li><A HREF="../sutanbai/sin_image.html" TARGET="_self"><B>高校数学「三角関数のイメージ作り」</A> <A HREF="#*2">※2</A> <A HREF="#*3">※3</A><BR>
+ネット上の先達の作品をおおいに参考にさせていただきました。<BR>
+<IMG BORDER="1" SRC="../sutanbai/simiphoto/sin_image.jpg" BORDER="1"><BR>
+<BR>
+
+
+
+<li><A HREF="../sutanbai/sankakukansuu.html" TARGET="_self"><B>高校数学「三角関数の観察」</A> <A HREF="#*2">※2</A> <A HREF="#*3">※3</A><BR>
+三角関数の基本形と、グラフの関係をリアルタイムに観察する。<BR>
+<IMG BORDER="1" SRC="../sutanbai/simiphoto/sankakukansuu.jpg" BORDER="1"><BR>
+<BR>
+
+
+<li><A HREF="#*1">※1</A> <A HREF="../sutanbai/wavemachine.html" TARGET="_self"><B>（フラッシュ）物理、擬似ウエイブマシン（煙発生マシン）</B></A><BR>
+波源で正弦波を起こしていることを強調したもので、波源で発生した煙が風に乗って進んでいく仕組みです。　波源を移動させることができるので、ドップラー効果の説明などに使えます。<BR>
+<IMG BORDER="1" SRC="../sutanbai/simiphoto/070118-022.jpg"><BR>
+<BR>
+
+
+</ul>
+
+</TD></TR>
+</TABLE>
+
+</DIV>
+<br>
+</body>
+</html>
+

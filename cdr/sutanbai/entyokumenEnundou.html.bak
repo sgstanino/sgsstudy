@@ -1,0 +1,23 @@
+<HTML>
+<HEAD>
+<meta http-equiv=Content-Type content="text/html;  charset=UTF-8">
+
+<!--譌･譛ｬ隱槫ｯｾ蠢徨uffle縺ｸ縺ｮ繝ｪ繝ｳ繧ｯ繧呈戟縺､js縺ｸ縺ｮ繝ｪ繝ｳ繧ｯ  -->
+<script src="../sutanbai/ruffleimport_jp.js"></script>
+
+<!--<script src="../sutanbai/ruffle/ruffle.js"></script>-->
+
+<TITLE>鬮俶｡ 蜉帛ｭｦ縲驩帷峩髱｢蜀・・蜀・°蜍・/TITLE>
+</HEAD>
+<BODY bgcolor="#FFFFFF">
+<B>鬮俶｡ 蜉帛ｭｦ縲驩帷峩髱｢蜀・・蜀・°蜍・/B><FONT SIZE="2">・医ン繧ｸ繝･繧｢繝ｫ迚ｩ逅・荳ｭ蟾晏・逕・縺ｮ<A HREF="http://www.ne.jp/asahi/tokyo/nkgw/gakusyu/rikigaku/enundou/enundou1.html" TARGET="_blank">菴懷刀</A>縺ｮ讓｡蛟｣縺ｧ縺吶ゆｸｭ蟾晏・逕溘↓縺ｯ荳∝ｯｧ縺ｪ繧｢繝峨ヰ繧､繧ｹ繧ゅ＞縺溘□縺阪∪縺励◆縲よ─隰昴・/FONT>縲縲<A HREF="hozyo.html">陬懷勧謨呎攝荳隕ｧ</A>
+<!-- URL's used in the movie-->
+<!-- text used in the movie-->
+<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0"
+ WIDTH="90%" HEIGHT="90%" id="entyokumenEnundou" ALIGN="">
+ <PARAM NAME=movie VALUE="entyokumenEnundou.swf"> <PARAM NAME=quality VALUE=high> <PARAM NAME=bgcolor VALUE=#FFFFFF> <EMBED src="entyokumenEnundou.swf" quality=high bgcolor=#FFFFFF  WIDTH="90%" HEIGHT="90%" NAME="entyokumenEnundou" ALIGN=""
+ TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></EMBED>
+</OBJECT>
+</BODY>
+</HTML>

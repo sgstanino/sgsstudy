@@ -1,0 +1,24 @@
+<HTML>
+<HEAD>
+<meta http-equiv=Content-Type content="text/html;  charset=UTF-8">
+
+<!--日本語対応ruffleへのリンクを持つjsへのリンク  -->
+<script src="../sutanbai/ruffleimport_jp.js"></script>
+
+<!--<script src="../sutanbai/ruffle/ruffle.js"></script>-->
+
+<TITLE>ドッキング・着陸シミュレーション</TITLE>
+</HEAD>
+ドッキング・着陸シミュレーション　　　　<A HREF="hozyo.html">補助教材一覧</A>
+
+<BODY bgcolor="#FFFFFF">
+<!-- URL's used in the movie-->
+<!-- text used in the movie-->
+<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0"
+ WIDTH="90%" HEIGHT="90%" id="docking" ALIGN="">
+ <PARAM NAME=movie VALUE="docking.swf"> <PARAM NAME=quality VALUE=high> <PARAM NAME=bgcolor VALUE=#FFFFFF> <EMBED src="docking.swf" quality=high bgcolor=#FFFFFF  WIDTH="90%" HEIGHT="90%" NAME="docking" ALIGN=""
+ TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></EMBED>
+</OBJECT>
+</BODY>
+</HTML>

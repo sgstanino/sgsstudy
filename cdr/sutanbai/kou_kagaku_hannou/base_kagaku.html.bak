@@ -1,0 +1,25 @@
+<HTML>
+<HEAD>
+<meta http-equiv=Content-Type content="text/html;  charset=UTF-8">
+<TITLE>baseban_kagaku</TITLE>
+
+<!--日本語対応ruffleへのリンクを持つjsへのリンク  -->
+<script src="../ruffleimport_jp.js"></script>
+
+<!--<script src="../sutanbai/ruffle/ruffle.js"></script>-->
+
+
+<!--<script src="../../sutanbai/ruffle/ruffle.js"></script>-->
+</HEAD>
+<BODY bgcolor="#CCCCCC">
+<!-- URL's used in the movie-->
+<A HREF=mokuzi.swf></A> <!-- text used in the movie-->
+<!--vol--><OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0"
+ WIDTH="100%" HEIGHT="100%" id="baseban_kagaku" ALIGN="">
+ <PARAM NAME=movie VALUE="baseban_kagaku.swf"> <PARAM NAME=quality VALUE=high> <PARAM NAME=bgcolor VALUE=#CCCCCC> <EMBED src="baseban_kagaku.swf" quality=high bgcolor=#CCCCCC  WIDTH="100%" HEIGHT="100%" NAME="baseban_kagaku" ALIGN=""
+ TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></EMBED>
+</OBJECT>
+
+</BODY>
+</HTML>
