@@ -1,32 +1,32 @@
 <HTML><HEAD>
-<META http-equiv=Content-Type content="text/html; charset=shift_jis">
+<META http-equiv=Content-Type content="text/html; charset=UTF-8">
 
 <SCRIPT language=JavaScript>
 <!-- 
 var i=0
 
 function kaiten(){
-	//半径
+	//蜊雁ｾ・
 	r = 100
 	
-	//値を計算（画面上ではYは下向きが正になっている）
+	//蛟､繧定ｨ育ｮ暦ｼ育判髱｢荳翫〒縺ｯY縺ｯ荳句髄縺阪′豁｣縺ｫ縺ｪ縺｣縺ｦ縺・ｋ・・
 	//////////////////////////////////
 	y= r * Math.sin(i*Math.PI/180);
 	x= r * Math.cos(i*Math.PI/180);
 	//////////////////////////////////
 
-	//点のx座標に値をセットする
+	//轤ｹ縺ｮx蠎ｧ讓吶↓蛟､繧偵そ繝・ヨ縺吶ｋ
 	document.all.ball.style.posTop =y
-	//点のy座標に値をセットする
+	//轤ｹ縺ｮy蠎ｧ讓吶↓蛟､繧偵そ繝・ヨ縺吶ｋ
 	document.all.ball.style.posLeft =x
 
-	//角度の表示
+	//隗貞ｺｦ縺ｮ陦ｨ遉ｺ
 	document.F1.Kakudo.value =i
 
-	//画面更新間隔
+	//逕ｻ髱｢譖ｴ譁ｰ髢馴囈
 	window.setTimeout("kaiten()", 100);
 
-	//角度を増加させる
+	//隗貞ｺｦ繧貞｢怜刈縺輔○繧・
 	i=i+1;
 	
 }
@@ -36,16 +36,16 @@ function kaiten(){
 </HEAD>
 
 <BODY onload=kaiten()>
-<FORM name=F1 action=#>角度は<INPUT size=10 name=Kakudo>
+<FORM name=F1 action=#>隗貞ｺｦ縺ｯ<INPUT size=10 name=Kakudo>
 </FORM>
 <SPAN id=hako style="LEFT: 200px; POSITION: absolute; TOP: 200px">
-□
+笆｡
 <SPAN id=ball style="POSITION: absolute">
-●
+笳・
 </SPAN>
 </SPAN>
 <DIV style="LEFT: 400px; POSITION: absolute; TOP: 0px">
-<A HREF="sankakuhi.EXE">ソースファイルダウンロード</A>
+<A HREF="sankakuhi.EXE">繧ｽ繝ｼ繧ｹ繝輔ぃ繧､繝ｫ繝繧ｦ繝ｳ繝ｭ繝ｼ繝・/A>
 </DIV>
 </BODY>
 </HTML>
