@@ -1,23 +1,23 @@
-//2009/11/26•ÏX•ªEEhidouki=true‚Ì‚ÉƒXƒ‰ƒCƒhƒo[‚ğ”¼“§–¾‚©‚Âƒhƒ‰ƒbƒO•s‰Â
+//2009/11/26ï¿½ÏXï¿½ï¿½ï¿½Eï¿½Ehidouki=trueï¿½Ìï¿½ï¿½ÉƒXï¿½ï¿½ï¿½Cï¿½hï¿½oï¿½[ï¿½ğ”¼“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Âƒhï¿½ï¿½ï¿½bï¿½Oï¿½sï¿½ï¿½
 onClipEvent (load) {
 
-	//ƒTƒ“ƒvƒ‹•\¦‚ğÁ‚·EEEˆÈ‰º”sA‚Ç‚ê‚àƒTƒ“ƒvƒ‹•\¦‚ªÁ‚¦‚Ä‚­‚ê‚È‚¢B
+	//ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Eï¿½Eï¿½Eï¿½È‰ï¿½ï¿½ï¿½ï¿½sï¿½Aï¿½Ç‚ï¿½ï¿½ï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½È‚ï¿½ï¿½B
 	//_level2.sample._alpha=0;
 	//_parent.arufa=0;
 	//_level2.unloadMovie();
 	//_root._level2.sample._visible=false;
 	//
-	_parent._parent.”ñ“¯Šú’ˆÓ•¶="‚±‚Ìƒy[ƒW‚Ìƒ€[ƒr[‚Í”ñ“¯Šú‚Å“®‚©‚µ‚Ä‚¢‚é‚Ì‚ÅAƒXƒ‰ƒCƒhƒo[‚Å‚ÌŠÔƒRƒ“ƒgƒ[ƒ‹‚Í‚Å‚«‚Ü‚¹‚ñ"
-	“®ì=1
-	ƒXƒy[ƒX‰Ÿ‚³‚ê‚½=false
+	_parent._parent.ï¿½ñ“¯Šï¿½ï¿½ï¿½ï¿½Ó•ï¿½="ï¿½ï¿½ï¿½Ìƒyï¿½[ï¿½Wï¿½Ìƒï¿½ï¿½[ï¿½rï¿½[ï¿½Í”ñ“¯Šï¿½ï¿½Å“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Ì‚ÅAï¿½Xï¿½ï¿½ï¿½Cï¿½hï¿½oï¿½[ï¿½Å‚Ìï¿½ï¿½ÔƒRï¿½ï¿½ï¿½gï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Í‚Å‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½"
+	ï¿½ï¿½ï¿½ï¿½=1
+	ï¿½Xï¿½yï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½ê‚½=false
 	initx = _x;
 	left = _x;
-	• = _parent.suraidoana._width;
-	right = _x+•;
+	ï¿½ï¿½ = _parent.suraidoana._width;
+	right = _x+ï¿½ï¿½;
 	top = _y;
 	bottom = _y;
 	function myplay(iti) {
-		ritu = (iti-initx)/•;
+		ritu = (iti-initx)/ï¿½ï¿½;
 		if (ritu>0.99) {
 			ritu = (_level1._totalframes-20)/_level1._totalframes;
 		}
@@ -45,30 +45,30 @@ on (press) {
 	if(_level1.hidouki==true){
 	}else{
 		startDrag("", false, left, top, right, bottom);
-		‚Â‚©‚ñ‚¾ = 1;
-		‚Â‚©‚ñ‚¾ = getTimer();
-		//trace(‚Â‚©‚ñ‚¾);
+		ï¿½Â‚ï¿½ï¿½ï¿½ = 1;
+		ï¿½Â‚ï¿½ï¿½ñ‚¾ï¿½ = getTimer();
+		//trace(ï¿½Â‚ï¿½ï¿½ñ‚¾ï¿½);
 
 	}
 }
 on (release) {
 	stopDrag();
-	‚Â‚©‚ñ‚¾ = 0;
+	ï¿½Â‚ï¿½ï¿½ï¿½ = 0;
 	_root.playbotan._visible = false;
 	_root.pausebotan._visible = true;
 	a = myplay(_x);
 }
 on (releaseOutside) {
 	stopDrag();
-	‚Â‚©‚ñ‚¾ = 0;
+	ï¿½Â‚ï¿½ï¿½ï¿½ = 0;
 	_root.playbotan._visible = false;
 	_root.pausebotan._visible = true;
 	a = myplay(_x);
 }
 onClipEvent (enterFrame) {
-	//”ñ“¯Šúƒ‚[ƒh‚Ì‚Æ‚«Aƒcƒ}ƒ~‚ğ”–‚­‚·‚é
+	//ï¿½ñ“¯Šï¿½ï¿½ï¿½ï¿½[ï¿½hï¿½Ì‚Æ‚ï¿½ï¿½Aï¿½cï¿½}ï¿½~ï¿½ğ”–‚ï¿½ï¿½ï¿½ï¿½ï¿½
 	if(_level1._currentframe<10){
-		“®ì=1
+		ï¿½ï¿½ï¿½ï¿½=1
 		if(_level1.hidouki==true){
 			//this.enabled=false
 			this._alpha=50
@@ -80,28 +80,28 @@ onClipEvent (enterFrame) {
 	}
 	//
 
-	//ƒXƒgƒbƒvƒL[iƒXƒy[ƒXj
+	//ï¿½Xï¿½gï¿½bï¿½vï¿½Lï¿½[ï¿½iï¿½Xï¿½yï¿½[ï¿½Xï¿½j
 	if (Key.isDown(32) ) {
-		if(ƒXƒy[ƒX‰Ÿ‚³‚ê‚½==false){
-			ƒXƒy[ƒX‰Ÿ‚³‚ê‚½=true
-			if(“®ì==1) {
+		if(ï¿½Xï¿½yï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½ê‚½==false){
+			ï¿½Xï¿½yï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½ê‚½=true
+			if(ï¿½ï¿½ï¿½ï¿½==1) {
 				_root.playbotan._visible = true;
 				_root.pausebotan._visible = false;
 				_level1.stop();
-				“®ì=0
+				ï¿½ï¿½ï¿½ï¿½=0
 			} else {
 				_root.playbotan._visible = false;
 				_root.pausebotan._visible = true;
 				_level1.play();
-				“®ì=1
+				ï¿½ï¿½ï¿½ï¿½=1
 			}
 		}
 	}else{
-		ƒXƒy[ƒX‰Ÿ‚³‚ê‚½=false
+		ï¿½Xï¿½yï¿½[ï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½ê‚½=false
 
 	}
-	if (‚Â‚©‚ñ‚¾!=1) {
-		//if (“®ì==1) {
+	if (ï¿½Â‚ï¿½ï¿½ï¿½!=1) {
+		//if (ï¿½ï¿½ï¿½ï¿½==1) {
 			if (_level1._currentframe<3) {
 				_root.playbotan._visible = false;
 				_root.pausebotan._visible = true;
@@ -109,17 +109,17 @@ onClipEvent (enterFrame) {
 			}
 			ritu2 = _level1._currentframe/_level1._totalframes;
 		
-			_x = initx+•*ritu2;
+			_x = initx+ï¿½ï¿½*ritu2;
 			_parent.suutihyouzi.suuti = int(ritu2*100);
 		//}
 	} else {
-		//‚Â‚©‚ñ‚Å‚¢‚é‚Æ‚«‚Å‚à
-		if (getTimer()-‚Â‚©‚ñ‚¾>300) {
-			‚Â‚©‚ñ‚¾ = getTimer();
+		//ï¿½Â‚ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Å‚ï¿½
+		if (getTimer()-ï¿½Â‚ï¿½ï¿½ñ‚¾ï¿½>300) {
+			ï¿½Â‚ï¿½ï¿½ñ‚¾ï¿½ = getTimer();
 			a = myplay(_x);
 		}
 	}
-	//ƒŠƒ“ƒN‹@”\
+	//ï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½@ï¿½\
 	mykey = 0;
 	if (Key.isDown(74)) {
 		mykey = 1;
@@ -131,39 +131,39 @@ onClipEvent (enterFrame) {
 		mykey = 3;
 	}
 	if (mykey != 0) {
-		if (‘I‘ğ’†ƒtƒ‰ƒO == 0) {
-			‘I‘ğ’†ƒtƒ‰ƒO = 1;
+		if (ï¿½Iï¿½ğ’†ƒtï¿½ï¿½ï¿½O == 0) {
+			ï¿½Iï¿½ğ’†ƒtï¿½ï¿½ï¿½O = 1;
 			_root.playbotan._visible = true;
 			_root.pausebotan._visible = false;
 			_level1.stop();
-			Å‰‚Ì•¶šˆÊ’u = Selection.getBeginIndex();
-			ÅŒã‚Ì•¶šˆÊ’u = Selection.getEndIndex();
-			•¶š—ñ = eval(Selection.getFocus()+".text");
-			ƒtƒB[ƒ‹ƒh = Selection.getFocus();
-			‘I‘ğ•¶š—ñ = •¶š—ñ.substring(Å‰‚Ì•¶šˆÊ’u, ÅŒã‚Ì•¶šˆÊ’u);
-			//trace(‘I‘ğ•¶š—ñ);
+			ï¿½Åï¿½ï¿½Ì•ï¿½ï¿½ï¿½ï¿½Ê’u = Selection.getBeginIndex();
+			ï¿½ÅŒï¿½Ì•ï¿½ï¿½ï¿½ï¿½Ê’u = Selection.getEndIndex();
+			ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ = eval(Selection.getFocus()+".text");
+			ï¿½tï¿½Bï¿½[ï¿½ï¿½ï¿½h = Selection.getFocus();
+			ï¿½Iï¿½ğ•¶ï¿½ï¿½ï¿½ = ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.substring(ï¿½Åï¿½ï¿½Ì•ï¿½ï¿½ï¿½ï¿½Ê’u, ï¿½ÅŒï¿½Ì•ï¿½ï¿½ï¿½ï¿½Ê’u);
+			//trace(ï¿½Iï¿½ğ•¶ï¿½ï¿½ï¿½);
 			if (mykey == 1) {
 				myurl = "http://dictionary.goo.ne.jp/srch/all/";
-				Å‰ = "";
-				ÅŒã = "/m0u/";
-				•Ï” = Å‰.concat(‘I‘ğ•¶š—ñ, ÅŒã);
-				ƒAƒhƒŒƒX = myurl.concat(•Ï”);
-				//hyouzi = •Ï”;
+				ï¿½Åï¿½ = "";
+				ï¿½ÅŒï¿½ = "/m0u/";
+				ï¿½Ïï¿½ = ï¿½Åï¿½.concat(ï¿½Iï¿½ğ•¶ï¿½ï¿½ï¿½, ï¿½ÅŒï¿½);
+				ï¿½Aï¿½hï¿½ï¿½ï¿½X = myurl.concat(ï¿½Ïï¿½);
+				//hyouzi = ï¿½Ïï¿½;
 			} else if (mykey == 2) {
 				myurl = "http://ja.wikipedia.org/wiki/";
-				ƒAƒhƒŒƒX = myurl.concat(‘I‘ğ•¶š—ñ);
+				ï¿½Aï¿½hï¿½ï¿½ï¿½X = myurl.concat(ï¿½Iï¿½ğ•¶ï¿½ï¿½ï¿½);
 			} else if (mykey == 3) {
 				myurl = "http://search.yahoo.co.jp/search";
-				Å‰ = "?p=";
-				ÅŒã = "&fr=ysvw&ei=Shift_JIS&search.x=20&search.y=12";
-				•Ï” = Å‰.concat(‘I‘ğ•¶š—ñ, ÅŒã);
-				ƒAƒhƒŒƒX = myurl.concat(•Ï”);
+				ï¿½Åï¿½ = "?p=";
+				ï¿½ÅŒï¿½ = "&fr=ysvwUTF-8_JIS&search.x=20&search.y=12";
+				ï¿½Ïï¿½ = ï¿½Åï¿½.concat(ï¿½Iï¿½ğ•¶ï¿½ï¿½ï¿½, ï¿½ÅŒï¿½);
+				ï¿½Aï¿½hï¿½ï¿½ï¿½X = myurl.concat(ï¿½Ïï¿½);
 			}
-			getURL(ƒAƒhƒŒƒX, "blank");
+			getURL(ï¿½Aï¿½hï¿½ï¿½ï¿½X, "blank");
 		}
 	} else {
-		‘I‘ğ’†ƒtƒ‰ƒO = 0;
+		ï¿½Iï¿½ğ’†ƒtï¿½ï¿½ï¿½O = 0;
 		mykey = 0;
-		//‘I‘ğ•¶š—ñ=null
+		//ï¿½Iï¿½ğ•¶ï¿½ï¿½ï¿½=null
 	}
 }
