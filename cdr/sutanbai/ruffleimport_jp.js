@@ -5,7 +5,7 @@
 //document.write('<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>');
 //
 //これは、緑SM64さんが作ってくれた日本語対応ruffleへのリンク・・日本語対応ruffleについては、時々、エミュレーターのファイルを更新しないといけない。・・自動のリンクは無い。
-document.write('<script src="/sgstudy/cdr/sutanbai/ruffle_jp/ruffle.js"></script>');
+document.write('<script src="https://sgstanino.github.io/sgstudy/cdr/sutanbai/ruffle_jp/ruffle.js"></script>');
 //
 //document.write('<script src="../ruffle/ruffle.js"></script>');
 
