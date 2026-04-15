@@ -1,24 +1,16 @@
 <HTML>
 <HEAD>
-<meta http-equiv=Content-Type content="text/html;  charset=UTF-8">
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
 <TITLE>数量イメージトレーニング</TITLE>
 
-<!--日本語対応ruffleへのリンクを持つjsへのリンク  -->
-<!--<script src="../../sutanbai/ruffleimport_jp.js"></script>-->
-<script src="https://github.com/sgstanino/sgsstudy/raw/refs/heads/main/cdr/sutanbai/ruffle_jp/ruffle.js"></script>
-<!--<script src="../sutanbai/ruffle/ruffle.js"></script>-->
+<script src="https://sgstanino.github.io/sgsstudy/cdr/sutanbai/ruffle_jp/ruffle.js"></script>
 
-<!--<script src="../../sutanbai/ruffle/ruffle.js"></script>-->
 <script>
 window.RufflePlayer = window.RufflePlayer || {};
-window.addEventListener("DOMContentLoaded", () => {
+window.addEventListener("load", (event) => {
     const ruffle = window.RufflePlayer.newest();
-    const player = ruffle.createPlayer();
-    const container = document.getElementById("imatra"); // OBJECTタグのID
-    if (container) {
-        player.load("imatra.swf?1");
-        container.parentNode.replaceChild(player, container);
-    }
+    // もし newest() でエラーが出る場合は、自動実行に任せるため
+    // 以下の player 作成部分はなくても動くことが多いです
 });
 </script>
 
