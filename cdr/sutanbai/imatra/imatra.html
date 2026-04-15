@@ -9,6 +9,18 @@
 <!--<script src="../sutanbai/ruffle/ruffle.js"></script>-->
 
 <!--<script src="../../sutanbai/ruffle/ruffle.js"></script>-->
+<script>
+window.RufflePlayer = window.RufflePlayer || {};
+window.addEventListener("DOMContentLoaded", () => {
+    const ruffle = window.RufflePlayer.newest();
+    const player = ruffle.createPlayer();
+    const container = document.getElementById("imatra"); // OBJECTタグのID
+    if (container) {
+        player.load("imatra.swf?1");
+        container.parentNode.replaceChild(player, container);
+    }
+});
+</script>
 
 </HEAD>
 <BODY bgcolor="#FFFFFF">
