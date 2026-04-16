@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html>
-<HEAD>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<script src="../ruffleimport.js"></script>
-<TITLE>area image</TITLE>
-</HEAD>
-<BODY bgcolor="#FFFFFF">
-<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
-  WIDTH="550" HEIGHT="400" id="menseki01_01" ALIGN="">
-  <PARAM NAME=movie VALUE="menseki01_01.swf">
-  <PARAM NAME=quality VALUE=high>
-  <PARAM NAME=bgcolor VALUE=#FFFFFF>
-  <EMBED src="menseki01_01.swf" quality=high bgcolor=#FFFFFF
-    WIDTH="550" HEIGHT="400" NAME="menseki01_01" ALIGN=""
-    TYPE="application/x-shockwave-flash">
-  </EMBED>
-</OBJECT>
-</BODY>
+<head>
+<meta charset="UTF-8">
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+<title>area image</title>
+</head>
+<body bgcolor="#FFFFFF">
+
+<div id="flashContainer"></div>
+
+<script>
+  window.addEventListener("load", function() {
+    var ruffle = window.RufflePlayer.newest();
+    var player = ruffle.createPlayer();
+    var container = document.getElementById("flashContainer");
+    container.appendChild(player);
+    player.style.width = "550px";
+    player.style.height = "400px";
+    player.load("menseki01_01.swf");
+  });
+</script>
+
+</body>
 </html>
